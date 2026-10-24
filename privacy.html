@@ -21,9 +21,9 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0; }
 <body>
 <main>
 <h1>Landfall Protocol — Privacy Policy</h1>
-<p class="meta">Luna Corporation · Azerbaijan · Last updated: 24 October 2026 · <a href="privacy-az.html">Azərbaycan dilində</a></p>
+<p class="meta">Yusub Dadasli (individual developer trading as Luna Corporation), Azerbaijan · Last updated: 24 October 2026 (revision 2) · <a href="privacy-az.html">Azərbaycan dilində</a></p>
 
-<p>This policy explains what the mobile game <strong>Landfall Protocol</strong> ("the game"), published by Luna Corporation ("we", "us"), collects, why, who receives it and what choices you have. The game is not directed at children under 13. To delete your account and data, see <a href="#delete">section 7</a> or the <a href="delete-account.html">account deletion page</a>.</p>
+<p>This policy explains what the mobile game <strong>Landfall Protocol</strong> ("the game"), published by Yusub Dadasli, an individual developer trading as Luna Corporation, Azerbaijan ("we", "us"; the controller of your data), collects, why, who receives it and what choices you have. The game is intended for players aged 13 and over; for players who say they are under 13 it keeps progress on the phone only (see <a href="#children">section 5</a>). To delete your account and data, see <a href="#delete">section 7</a> or the <a href="delete-account.html">account deletion page</a>.</p>
 
 <h2>1. Data we process</h2>
 <table>
@@ -54,12 +54,19 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0; }
 <ul>
 <li><strong>What:</strong> technical data from the game and the Unity services — crash logs, performance and stability telemetry, device model and OS version, engine and configuration data, and the identifiers the services need (player ID, installation ID).</li>
 <li><strong>Why:</strong> so Unity can run, secure and improve the services the game uses, keep the engine stable on your device, and help us when we open a support request.</li>
-<li><strong>Controller status:</strong> for these purposes Unity Technologies receives the data as an <strong>independent controller</strong>, under its own privacy policy, not only on our behalf.</li>
+<li><strong>Unity's role:</strong> Unity mainly acts as our <strong>processor</strong> (it runs Authentication, Player Accounts, Cloud Save and In-App Purchasing on our behalf); for the <strong>Essential</strong> and <strong>technical support</strong> purposes of Unity Developer Data it may act as an <strong>independent controller</strong>, under its own privacy policy.</li>
 <li><strong>More information and your rights towards Unity:</strong> <a href="https://unity.com/legal/privacy-policy">unity.com/legal/privacy-policy</a> and <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">unity.com/legal/game-player-and-app-user-privacy-policy</a>.</li>
 </ul>
 
-<h2>5. Children</h2>
-<p>The game is intended for players aged 13 and over. If a player tells us they are under 13, ads are never personalised. We do not knowingly collect personal data from children under 13; if you believe a child has given us data, contact us and we will delete it.</p>
+<h2 id="children">5. Children</h2>
+<p>The game is intended for players aged 13 and over. The first screen asks your age. If a player says they are under 13:</p>
+<ul>
+<li>the progress is saved <strong>only on the phone</strong>: the game does not sign in to Unity (not even anonymously), creates no player account and uploads nothing to the cloud; the sign-in and account buttons are hidden;</li>
+<li>ads are <strong>never personalised</strong>: the ad SDKs receive the child-directed (COPPA) flags and the advertising ID is not used for tracking;</li>
+<li>if the age answer is later changed to 13 or over, the cloud still stays off until the player taps <em>sign in</em> themselves; nothing is uploaded before that;</li>
+<li>the engine's crash and diagnostics data (<a href="#unity">section 4</a>) is still sent to Unity, as for every player.</li>
+</ul>
+<p>Until the age question is answered, the game does not sign in to the cloud or start the ad SDKs. We do not knowingly collect personal data from children under 13; if you believe a child has given us data, contact us and we will delete it.</p>
 
 <h2>6. Storage, security and retention</h2>
 <p>Data sent to Unity and Google travels over encrypted connections (HTTPS/TLS). The cloud backup is kept while your player account exists; game data on the device is deleted when you uninstall the game. Unity and Google may store data on servers outside your country under their own safeguards.</p>
@@ -72,7 +79,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0; }
 
 <h2>8. Third parties</h2>
 <ul>
-<li>Unity Technologies — Unity engine, Authentication, Player Accounts, Cloud Save, In-App Purchasing, Developer Data: <a href="https://unity.com/legal/privacy-policy">unity.com/legal/privacy-policy</a></li>
+<li>Unity Technologies — Unity engine, Authentication, Player Accounts, Cloud Save, In-App Purchasing (as our processor), Developer Data (for the Essential and technical support purposes it may act as an independent controller): <a href="https://unity.com/legal/privacy-policy">unity.com/legal/privacy-policy</a></li>
 <li>Unity LevelPlay (ironSource mediation), ironSource Ads, Unity Ads: <a href="https://unity.com/legal/game-player-and-app-user-privacy-policy">unity.com/legal/game-player-and-app-user-privacy-policy</a></li>
 <li>Google Play (distribution, purchases, Google sign-in): <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
 </ul>
@@ -81,7 +88,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 40px 0; }
 <p>If this policy changes, we update the date above and, for important changes, show the consent screen again in the game.</p>
 
 <h2>10. Contact</h2>
-<p>Luna Corporation · e-mail: <a href="mailto:lunacorp.app@gmail.com"><strong>lunacorp.app@gmail.com</strong></a></p>
+<p>Yusub Dadasli (individual developer trading as Luna Corporation), Azerbaijan · e-mail: <a href="mailto:lunacorp.app@gmail.com"><strong>lunacorp.app@gmail.com</strong></a></p>
 </main>
 </body>
 </html>
